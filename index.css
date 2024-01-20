@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700;900&family=Poppins&family=Roboto&family=Roboto+Slab:wght@900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+body{
+    overflow-x: none;
+    color:whitesmoke;
+    background-image: linear-gradient(135deg, #9796f0 10%, #FBC7D4 100%);
+}
+nav{
+    position: fixed;
+    width: 100%;
+    padding: 12px 12px 12px 12px;
+    background-image: linear-gradient(135deg, #252c42 10%, #3a39c4 100%);
+    font-size: 20px;
+    font-weight: 800;
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    color: white;
+    cursor: pointer;
+    margin: 0 12px;
+}
+nav ul a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul input{
+    padding: 6px 6px 6px 6px;
+    color:rgb(48, 30, 65);
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 6px;
+    outline: 1px solid blueviolet;
+    border: 1px solid blueviolet;
+}
+nav ul button{
+    padding: 6px 6px 6px 6px;
+    color:rgb(48, 30, 65);
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 6px;
+    outline: 1px solid blueviolet;
+    border: 1px solid blueviolet;
+    margin:  0 12px;
+    background-image: linear-gradient(135deg, #FFFEFF 10%, #D7FFFE 100%);
+}
+
+.min-height{
+    min-height: 10vh;
+}
+.container-all-items{
+    margin-top: 2%;
+}
+
+.container-all-items .content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px 10px 10px 10px;
+}
+
+.content video,img{
+    width: 200px;
+    height: 170px;
+    border: 1px solid rgb(111, 111, 111);
+    border-radius: 6px;
+    margin: 6px 6px;
+    cursor: pointer;
+}
+
+footer{
+ display: flex;
+ justify-content: center;
+ align-items: center;  
+ background-image: linear-gradient(135deg, #FFCF71 10%, #2376DD 100%);
+ padding: 12px 12px 12px 12px;
+ margin-top: 6%;
+ position: fixed;
+ bottom: 0;
+ width: 100%;
+}
+footer span{
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+
+#btn{
+    cursor: pointer;
+}
+@media screen and (max-width: 500px) {
+    .content video,img{
+        width: 390px;
+        height: 270px;
+        border: 1px solid rgb(111, 111, 111);
+        border-radius: 6px;
+        margin: 6px 6px;
+        cursor: pointer;
+    }
+   nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   }
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+}
+   nav ul button{
+    text-align: center;
+    margin-top: 2%;
+   }
+   #inputsearch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   }
+   .min-height{
+    min-height: 20vh;
+  }
+
+  }
+  
+  
+
+  
+@media screen and (max-width: 420px) {
+    .content video,img{
+        width: 320px;
+        height: 200px;
+        border: 1px solid rgb(111, 111, 111);
+        border-radius: 6px;
+        margin: 6px 6px;
+        cursor: pointer;
+    }
+    nav{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+    }
+ nav ul{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction:column;
+ }
+    #btn{
+    margin-top: 2%;  
+    }
+    
+   }
+
+   @media screen and (max-width: 340px) {
+    .content video,img{
+        width: 260px;
+        height: 180px;
+        border: 1px solid rgb(111, 111, 111);
+        border-radius: 6px;
+        margin: 6px 6px;
+        cursor: pointer;
+    }
+    
+   }
+   
+@media screen and (max-width: 276px) {
+    .content video,img{
+        width: 232px;
+        height: 180px;
+        border: 1px solid rgb(111, 111, 111);
+        border-radius: 6px;
+        margin: 6px 6px;
+        cursor: pointer;
+    }
+    nav ul input{
+        padding: 4px 4px 4px 4px;
+        color:rgb(48, 30, 65);
+        font-size: 14px;
+        font-weight: 400;
+        border-radius: 6px;
+        outline: 1px solid blueviolet;
+        border: 1px solid blueviolet;
+    }
+    .min-height{
+        min-height: 36vh;
+      }
+    
+   }
+   
+   
